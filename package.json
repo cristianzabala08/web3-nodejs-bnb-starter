@@ -1,0 +1,31 @@
+{
+  "name": "web3-nodejs-bnb-starter",
+  "version": "1.0.0",
+  "description": "Plantilla inicial para interactuar con Smart Contracts en BNB Smart Chain usando Node.js, TypeScript y Ethers.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "web3",
+    "bnb",
+    "bsc",
+    "solidity",
+    "ethers",
+    "typescript",
+    "smart-contracts"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
